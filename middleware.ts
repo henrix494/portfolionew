@@ -27,15 +27,17 @@ function getLocale(request: NextRequest): string | undefined {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  // `/_next/` and `/api/` are ignored by the matcher, so we need to ignore files in `public` manually.
-  // If you have more files in `public`, add them to this list.
-  if (
-    [
-      "/manifest.json",
-      "vercel.svg",
-      // Your other files in `public`
-    ]
-  ) {
+  // List of files in `public` that should be ignored
+  const publicFiles = [
+    "/manifest.json",
+    "/vercel.svg",
+    "/projects/ai-diet.svg",
+    "/projects/Coffe.svg",
+    // Your other files in `public`
+  ];
+
+  // If the pathname matches any public file, exit early
+  if (publicFiles.includes(pathname)) {
     return;
   }
 
@@ -61,7 +63,5 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`
-  matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|public|next.svg).*)",
-  ],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|public).*)"],
 };
