@@ -1,0 +1,27 @@
+{
+  "Hero": {
+    "fullName": "נתן מינקוב",
+    "Proff": "מפתח אתרים / מהנדס תוכנה",
+    "description": "שלום 👋 אני מפתח אתרים ומהנדס תוכנה מיומן עם תשוקה ליצירת פתרונות חדשניים."
+  },
+  "techs": {
+    "what": "טכנולוגיות"
+  },
+  "projects": {
+    "title": "הפרויקטים שלי ",
+    "projecDetails": [
+      {
+        "ProjcetName": "דיאטת AI",
+        "description": "לורם",
+        "img": "/projects/ai-diet.svg",
+        "href": "https://www.recipeweb.co/"
+      },
+      {
+        "ProjcetName": "חנות קפה",
+        "description": "לורם",
+        "img": "/projects/Coffe.svg",
+        "href": "https://crm-front-lovat.vercel.app/"
+      }
+    ]
+  }
+}

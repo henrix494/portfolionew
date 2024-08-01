@@ -1,0 +1,27 @@
+{
+  "Hero": {
+    "fullName": "Natan Minkov",
+    "Proff": "Web developer / software engineer",
+    "description": "Hello 👋 I am skilled web developer and software engineer with a passion for creating innovative solutions."
+  },
+  "techs": {
+    "what": "WHAT I USE"
+  },
+  "projects": {
+    "title": "My Projects",
+    "projecDetails": [
+      {
+        "ProjcetName": "Ai Diet App",
+        "description": "Lםרקצ",
+        "img": "/projects/ai-diet.svg",
+        "href": "https://www.recipeweb.co/"
+      },
+      {
+        "ProjcetName": "Coffe Shop ",
+        "description": "Lםרקצ",
+        "img": "/projects/Coffe.svg",
+        "href": "https://crm-front-lovat.vercel.app/"
+      }
+    ]
+  }
+}
