@@ -29,16 +29,18 @@ export default function Projects({
 }) {
   return (
     <>
-      {dictionary.projects.projecDetails.map((project) => {
+      {dictionary.projects.projecDetails.map((project, index) => {
         console.log(project);
         return (
-          <ProjectCard
-            lang={lang}
-            title={project.ProjcetName}
-            description={project.description}
-            img={project.img}
-            href={project.href}
-          />
+          <div key={index}>
+            <ProjectCard
+              lang={lang}
+              title={project.ProjcetName}
+              description={project.description}
+              img={project.img}
+              href={project.href}
+            />
+          </div>
         );
       })}
     </>
