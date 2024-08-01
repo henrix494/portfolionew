@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Locale } from "@/i18n-config";
 import Link from "next/link";
@@ -16,13 +17,42 @@ export default function ProjectCard({
   img: string;
   href: string;
 }) {
-  console.log(href);
-  const colors = ["#0D4EF3", "#D70606", "#D70651"];
-  const pickRandomColor = () => {
-    return colors[Math.floor(Math.random() * colors.length)];
-  };
+  const [colors, setColors] = useState<string[]>([]);
 
-  const randomColor = pickRandomColor();
+  function randomColorUtility(length: number) {
+    return Math.floor(Math.random() * length);
+  }
+
+  function hexy() {
+    const hex = [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+    ];
+    let hexColor = "#";
+    for (let i = 0; i < 6; i++) {
+      hexColor += hex[randomColorUtility(hex.length)];
+    }
+    return hexColor;
+  }
+
+  useEffect(() => {
+    const initialColors = Array.from({ length: 4 }, hexy);
+    setColors(initialColors);
+  }, []);
 
   return (
     <div>
@@ -39,30 +69,15 @@ export default function ProjectCard({
             </h3>
           </div>
           <div className="flex gap-5 pt-4">
-            <button
-              style={{ backgroundColor: pickRandomColor() }}
-              className="py-2 px-4 rounded-lg text-white font-bold text-2xl"
-            >
-              React
-            </button>
-            <button
-              style={{ backgroundColor: pickRandomColor() }}
-              className="py-2 px-4 rounded-lg text-white font-bold text-2xl"
-            >
-              React
-            </button>
-            <button
-              style={{ backgroundColor: pickRandomColor() }}
-              className="py-2 px-4 rounded-lg text-white font-bold text-2xl"
-            >
-              React
-            </button>
-            <button
-              style={{ backgroundColor: pickRandomColor() }}
-              className="py-2 px-4 rounded-lg text-white font-bold text-2xl"
-            >
-              React
-            </button>
+            {colors.map((color, index) => (
+              <button
+                key={index}
+                style={{ backgroundColor: color }}
+                className="py-2 px-4 rounded-lg text-white font-bold text-2xl"
+              >
+                React
+              </button>
+            ))}
           </div>
           <div className="mt-10">
             <Link
