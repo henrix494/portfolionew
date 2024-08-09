@@ -12,15 +12,47 @@
     "projecDetails": [
       {
         "ProjcetName": "Ai Diet App",
-        "description": "Lםרקצ",
+        "description": "personalized diet planning app powered by AI. Built with Next.js, Gemini, Convex, and WebSockets, it offers a seamless user experience, secure authentication, and a sleek design using Tailwind CSS.",
         "img": "/projects/ai-diet.svg",
-        "href": "https://www.recipeweb.co/"
+        "href": "https://www.recipeweb.co/",
+        "goToWebSite": "Go To WebSite",
+        "techStack": [
+          "Next JS",
+          "Gemini",
+          "Convex",
+          "WS",
+          "TailWind",
+          "clerk auth"
+        ]
       },
       {
         "ProjcetName": "Coffe Shop ",
-        "description": "Lםרקצ",
+        "description": "A digital café management app built with React, Node.js, and MongoDB. It features secure payment integration using a Credit Card API and data handling with Mongoose, delivering a smooth and responsive user experience.",
         "img": "/projects/Coffe.svg",
-        "href": "https://crm-front-lovat.vercel.app/"
+        "href": "https://crm-front-lovat.vercel.app/",
+        "goToWebSite": "Go To WebSite",
+        "techStack": [
+          "React",
+          "Node Js",
+          "Mongo DB",
+          "Credit card API",
+          "Mongoose"
+        ]
+      },
+      {
+        "ProjcetName": "חנות קפה",
+        "description": "אפליקציה לניהול בית קפה דיגיטלי שנבנתה עם React, Node.js, ו-MongoDB. האפליקציה כוללת אינטגרציה מאובטחת לתשלומים באמצעות API לכרטיסי אשראי וטיפול בנתונים עם Mongoose, ומספקת חוויית משתמש חלקה ומהירה.",
+        "img": "/projects/Coffe.svg",
+        "href": "https://crm-front-lovat.vercel.app/",
+        "goToWebSite": "לך לאתר",
+        "techStack": [
+          "Next JS",
+          "Gemini",
+          "Convex",
+          "WS",
+          "TailWind",
+          "clerk auth"
+        ]
       }
     ]
   }

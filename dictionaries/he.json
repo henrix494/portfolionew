@@ -12,15 +12,48 @@
     "projecDetails": [
       {
         "ProjcetName": "דיאטת AI",
-        "description": "לורם",
+        "description": "אפליקציה לתכנון דיאטה מותאמת אישית בעזרת בינה מלאכותית. נבנתה עם Next.js, Gemini, Convex, ו-WebSockets, ומציעה חוויית משתמש חלקה, אימות מאובטח, ועיצוב מודרני באמצעות Tailwind CSS.",
         "img": "/projects/ai-diet.svg",
-        "href": "https://www.recipeweb.co/"
+        "href": "https://www.recipeweb.co/",
+        "goToWebSite": "לך לאתר",
+        "techStack": [
+          "Next JS",
+          "Gemini",
+          "Convex",
+          "WS",
+          "TailWind",
+          "clerk auth"
+        ]
       },
       {
         "ProjcetName": "חנות קפה",
-        "description": "לורם",
+        "description": "אפליקציה לניהול בית קפה דיגיטלי שנבנתה עם React, Node.js, ו-MongoDB. האפליקציה כוללת אינטגרציה מאובטחת לתשלומים באמצעות API לכרטיסי אשראי וטיפול בנתונים עם Mongoose, ומספקת חוויית משתמש חלקה ומהירה.",
         "img": "/projects/Coffe.svg",
-        "href": "https://crm-front-lovat.vercel.app/"
+        "href": "https://crm-front-lovat.vercel.app/",
+        "goToWebSite": "לך לאתר",
+        "techStack": [
+          "Next JS",
+          "Gemini",
+          "Convex",
+          "WS",
+          "TailWind",
+          "clerk auth"
+        ]
+      },
+      {
+        "ProjcetName": "חנות קפה",
+        "description": "אפליקציה לניהול בית קפה דיגיטלי שנבנתה עם React, Node.js, ו-MongoDB. האפליקציה כוללת אינטגרציה מאובטחת לתשלומים באמצעות API לכרטיסי אשראי וטיפול בנתונים עם Mongoose, ומספקת חוויית משתמש חלקה ומהירה.",
+        "img": "/projects/Coffe.svg",
+        "href": "https://crm-front-lovat.vercel.app/",
+        "goToWebSite": "לך לאתר",
+        "techStack": [
+          "Next JS",
+          "Gemini",
+          "Convex",
+          "WS",
+          "TailWind",
+          "clerk auth"
+        ]
       }
     ]
   }

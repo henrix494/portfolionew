@@ -12,7 +12,7 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 182px;
-  opacity: 0.07;
+  opacity: 0.2;
   top: 0;
   left: 0;
   position: absolute;
@@ -42,8 +42,27 @@
   filter: blur(4rem);
   position: absolute;
   left: -10%; /* Adjust the right value */
-  top: 100%; /* Position it vertically centered */
+  top: 50%; /* Position it vertically centered */
   transform: translate(50%, -50%); /* Ensure it's positioned correctly */
   background: #d9d9d952;
   overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
