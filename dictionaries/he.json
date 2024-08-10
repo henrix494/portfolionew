@@ -44,7 +44,7 @@
         "ProjcetName": "ניהול ספרים",
         "description": "Barber Dashboard היא אפליקציה מקיפה לניהול מספרה דיגיטלית. האפליקציה נבנתה עם Next.js, Next Auth, MySQL, Tailwind ו-React Calendar, ומספקת חוויית משתמש חלקה עם אימות מאובטח וטיפול יעיל בנתונים לניהול הזמנות ותיאום תורים.",
         "img": "/projects/barber.jpg",
-        "href": "barber-dashboard-lyart.vercel.app/",
+        "href": "https://barber-dashboard-lyart.vercel.app/",
         "goToWebSite": "לך לאתר",
         "techStack": [
           "Next JS",
