@@ -103,12 +103,12 @@ export default function ProjectCard({
         <div
           className={`${
             lang === "he" ? "order-last lg:order-first" : ""
-          } flex items-center justify-center mt-10`}
+          } flex items-center justify-center mt-10 px-10`}
         >
           <Image
             src={img}
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             alt="pro"
             className="w-full max-w-[400px] h-auto"
           />
@@ -140,7 +140,7 @@ export default function ProjectCard({
                   backgroundColor: colors[index]?.backgroundColor,
                   color: colors[index]?.textColor,
                 }}
-                className="py-1 px-4 rounded-lg font-bold text-lg "
+                className="py-1 px-4 rounded-lg font-bold text-lg cursor-auto"
               >
                 {tech}
               </button>

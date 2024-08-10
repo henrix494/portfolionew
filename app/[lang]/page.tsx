@@ -4,6 +4,7 @@ import Hero from "@/components/Hero/Hero";
 import Tech from "@/components/techs/Tech";
 import Projects from "@/components/projects/Projects";
 import Contact from "@/components/contact/Contact";
+import AboutMe from "@/components/Aboutme/AboutMe";
 export default async function Home({
   params: { lang },
 }: {
@@ -34,8 +35,8 @@ export default async function Home({
         </div>
         <div className="rectangleTwo  "></div>
       </div>
-      <div className=" relative overflow-hidden lg:w-[1200px] flex justify-center mt-10">
-        <Contact />
+      <div className=" relative overflow-hidden  flex justify-center mt-10">
+        <AboutMe dictionary={dictionary} />
       </div>
     </main>
   );

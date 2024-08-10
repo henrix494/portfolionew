@@ -41,20 +41,22 @@
         ]
       },
       {
-        "ProjcetName": "חנות קפה",
-        "description": "אפליקציה לניהול בית קפה דיגיטלי שנבנתה עם React, Node.js, ו-MongoDB. האפליקציה כוללת אינטגרציה מאובטחת לתשלומים באמצעות API לכרטיסי אשראי וטיפול בנתונים עם Mongoose, ומספקת חוויית משתמש חלקה ומהירה.",
-        "img": "/projects/Coffe.svg",
+        "ProjcetName": "ניהול ספרים",
+        "description": "Barber Dashboard היא אפליקציה מקיפה לניהול מספרה דיגיטלית. האפליקציה נבנתה עם Next.js, Next Auth, MySQL, Tailwind ו-React Calendar, ומספקת חוויית משתמש חלקה עם אימות מאובטח וטיפול יעיל בנתונים לניהול הזמנות ותיאום תורים.",
+        "img": "/projects/barber.jpg",
         "href": "https://crm-front-lovat.vercel.app/",
         "goToWebSite": "לך לאתר",
         "techStack": [
           "Next JS",
-          "Gemini",
-          "Convex",
-          "WS",
+          "Next Auth",
+          "My SQL",
           "TailWind",
-          "clerk auth"
+          "React Calendar"
         ]
       }
     ]
+  },
+  "aboutMe": {
+    "title": "קצת עליי"
   }
 }

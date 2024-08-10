@@ -27,6 +27,9 @@ export interface dictionary {
       techStack: string[];
     }[];
   };
+  aboutMe: {
+    title: string;
+  };
 }
 
 export default function Projects({

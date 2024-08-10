@@ -33,6 +33,7 @@ export function middleware(request: NextRequest) {
     "/vercel.svg",
     "/projects/ai-diet.svg",
     "/projects/Coffe.svg",
+    "/projects/barber.jpg",
     // Your other files in `public`
   ];
 
