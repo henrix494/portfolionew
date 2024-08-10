@@ -43,7 +43,7 @@
         "ProjcetName": "Barber Dashboard",
         "description": "Barber Dashboard is a comprehensive application designed to manage a digital barbershop. Built using Next.js, Next Auth, MySQL, Tailwind, and React Calendar, it offers a seamless user experience with secure authentication and efficient data handling for booking and managing appointments.",
         "img": "/projects/barber.jpg",
-        "href": "https://crm-front-lovat.vercel.app/",
+        "href": "barber-dashboard-lyart.vercel.app/",
         "goToWebSite": "לך לאתר",
         "techStack": [
           "Next JS",
