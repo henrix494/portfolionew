@@ -44,7 +44,7 @@
   border: 1px solid;
   -webkit-backdrop-filter: blur(200px);
   will-change: filter;
-
+  z-index: -1;
   filter: blur(4rem);
   -webkit-filter: blur(4rem);
   position: absolute;
