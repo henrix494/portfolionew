@@ -4,9 +4,8 @@
 
 .page {
   position: relative;
-  overflow: visible;
+  overflow: visible; /* Ensure the pseudo-element is not clipped */
 }
-
 .page:before {
   content: "";
   background-color: transparent;
@@ -22,42 +21,38 @@
   overflow: hidden;
 }
 
-.rectangle,
+.rectangle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid;
+  filter: blur(4rem);
+  position: absolute;
+  -webkit-filter: blur(4rem);
+  -webkit-backdrop-filter: blur(200px);
+  will-change: filter;
+  right: 0; /* Adjust the right value */
+  top: 100%; /* Position it vertically centered */
+  transform: translate(50%, -50%); /* Ensure it's positioned correctly */
+  background: #d9d9d952;
+  overflow-x: hidden !important;
+}
 .rectangleTwo {
   width: 250px;
   height: 250px;
   border-radius: 50%;
   border: 1px solid;
-  background: #d9d9d952;
-  position: absolute;
-  backdrop-filter: blur(4rem);
-  -webkit-backdrop-filter: blur(4rem);
+  -webkit-backdrop-filter: blur(200px);
+  will-change: filter;
+
   filter: blur(4rem);
   -webkit-filter: blur(4rem);
+  position: absolute;
+  left: -10%; /* Adjust the right value */
+  top: 50%; /* Position it vertically centered */
+  transform: translate(50%, -50%); /* Ensure it's positioned correctly */
+  background: #d9d9d952;
   overflow-x: hidden !important;
-  z-index: 1;
-}
-
-.rectangle {
-  right: 0;
-  top: 100%;
-  transform: translate(50%, -50%);
-}
-
-.rectangleTwo {
-  left: -10%;
-  top: 50%;
-  transform: translate(50%, -50%);
-}
-
-/* Safari Fallback for blur */
-@supports not (
-  (-webkit-backdrop-filter: blur(4rem)) or (backdrop-filter: blur(4rem))
-) {
-  .rectangle,
-  .rectangleTwo {
-    background: rgba(217, 217, 217, 0.52); /* Fallback background color */
-  }
 }
 
 ::-webkit-scrollbar {
