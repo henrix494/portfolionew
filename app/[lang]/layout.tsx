@@ -1,4 +1,4 @@
-import type { Metadata, ResolvingMetadata } from "next";
+import type { Metadata, ResolvedMetadata, ResolvingMetadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { i18n, type Locale } from "../../i18n-config";
@@ -33,7 +33,7 @@ export async function generateMetadata({
 }: {
   params: { lang: Locale };
   perent: ResolvingMetadata;
-}): Promise<Metadata> {
+}): Promise<Metadata | ResolvedMetadata> {
   return {
     title: params.lang === "he" ? "בית" : "Home",
     icons: {
