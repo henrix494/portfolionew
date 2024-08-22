@@ -28,6 +28,7 @@
   border: 1px solid;
   filter: blur(4rem);
   position: absolute;
+  -webkit-filter: blur(4rem);
   right: 0; /* Adjust the right value */
   top: 100%; /* Position it vertically centered */
   transform: translate(50%, -50%); /* Ensure it's positioned correctly */
@@ -40,6 +41,7 @@
   border-radius: 50%;
   border: 1px solid;
   filter: blur(4rem);
+  -webkit-filter: blur(4rem);
   position: absolute;
   left: -10%; /* Adjust the right value */
   top: 50%; /* Position it vertically centered */
