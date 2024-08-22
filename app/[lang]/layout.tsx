@@ -30,10 +30,8 @@ export default function RootLayout({
 
 export async function generateMetadata({
   params,
-  perent,
 }: {
   params: { lang: Locale };
-  perent: ResolvingMetadata;
 }): Promise<Metadata | ResolvedMetadata> {
   return {
     title: params.lang === "he" ? "בית" : "Home",
