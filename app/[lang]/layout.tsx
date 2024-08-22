@@ -30,6 +30,7 @@ export default function RootLayout({
 
 export async function generateMetadata({
   params,
+  perent,
 }: {
   params: { lang: Locale };
   perent: ResolvingMetadata;
