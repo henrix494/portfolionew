@@ -35,6 +35,11 @@ export function middleware(request: NextRequest) {
     "/projects/Coffe.svg",
     "/projects/barber.jpg",
     "/icons8-code-folder-16.png",
+    "/icons/fix.webp",
+    "/icons/star.svg",
+    "/social/github.svg",
+    "/social/linkedIn.svg",
+
     // Your other files in `public`
   ];
 

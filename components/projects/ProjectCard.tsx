@@ -88,7 +88,7 @@ export default function ProjectCard({
           ease: "power3.out",
           scrollTrigger: {
             trigger: cardRef.current,
-            start: "top 40%",
+            start: "top 60%",
             end: "bottom 20%",
             toggleActions: "play none none reverse",
           },

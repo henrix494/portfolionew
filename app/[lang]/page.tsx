@@ -38,6 +38,7 @@ export default async function Home({
       <div className=" relative overflow-hidden  flex justify-center mt-10">
         <AboutMe dictionary={dictionary} lang={lang} />
       </div>
+      <div className="h-[200px]"></div>
     </main>
   );
 }
