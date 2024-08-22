@@ -29,6 +29,7 @@ export interface dictionary {
   };
   aboutMe: {
     title: string;
+    text?: string;
   };
 }
 

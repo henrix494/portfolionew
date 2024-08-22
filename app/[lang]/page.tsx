@@ -36,7 +36,7 @@ export default async function Home({
         <div className="rectangleTwo  "></div>
       </div>
       <div className=" relative overflow-hidden  flex justify-center mt-10">
-        <AboutMe dictionary={dictionary} />
+        <AboutMe dictionary={dictionary} lang={lang} />
       </div>
     </main>
   );

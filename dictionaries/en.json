@@ -56,6 +56,7 @@
     ]
   },
   "aboutMe": {
-    "title": "About me"
+    "title": "About me",
+    "text": "I'm a dedicated Full-Stack Developer with a passion for building reliable and scalable web applications using Next.js, JavaScript, and React. I enjoy solving problems and thrive on taking on challenging projects. I'm skilled in both back-end and front-end development, ensuring seamless user experiences. I value writing clean, maintainable code and am always eager to learn and grow in the ever-evolving world of web development. Plus, I love being part of a team where collaboration is key!"
   }
 }
