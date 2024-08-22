@@ -34,6 +34,7 @@ export function middleware(request: NextRequest) {
     "/projects/ai-diet.svg",
     "/projects/Coffe.svg",
     "/projects/barber.jpg",
+    "/icons8-code-folder-16.png",
     // Your other files in `public`
   ];
 

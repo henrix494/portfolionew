@@ -15,7 +15,7 @@ export default async function Home({
   return (
     <main className="">
       <div className="flex justify-center relative overflow-x-clip ">
-        <div className=" w-[700px] ">
+        <div className="  ">
           <Hero dictionary={dictionary} />
         </div>
       </div>
